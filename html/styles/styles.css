@@ -1,0 +1,58 @@
+body{
+    background-color:gray;
+    color:whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+
+h1,h2,h3{
+    color:blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.navbar{
+background-color:red;
+padding: 10px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: whitesmoke;
+}
+.navbar a{
+    color: whitesmoke;
+}
+.navbar a:hover{
+    background-color: black;
+    border-radius: 5px;
+}
+.maincontent{
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.box-model{
+   padding: 15px; 
+   background-color: black;
+   border: 10px solid yellow;
+   margin: 15px;
+}
+
+
+
+
+
+.sidebar{
+background-color: black;
+width: 200px;
+height: 100%;
+position: fixed;
+top: 60px;
+left: 0;
+padding: 15px;
+box-sizing: border-box;
+}
+
+#top{}
